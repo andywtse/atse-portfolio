@@ -23,14 +23,15 @@ div.navbar-list-container {
   max-width: 100%;
 }
 
-.navbar-item>a {
+.navbar-item>div {
   display: flex;
   padding: 10px 10px;
   justify-content: center;
   color: grey;
+  cursor: pointer;
 }
 
-.navbar-item>a:hover {
+.navbar-item>div:hover {
   color:lightblue;
 }
 
