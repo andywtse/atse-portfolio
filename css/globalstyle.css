@@ -43,4 +43,5 @@ button#button-scroll-top {
   background-repeat: no-repeat;
   height: 2rem;
   width: 2rem;
+  border-radius: 50px;
 }
