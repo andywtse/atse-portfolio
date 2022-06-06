@@ -1,0 +1,60 @@
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+div.navbar-container {
+  display: flex;
+  background-color: white;
+}
+
+div.navbar-list-container {
+  display: flex;
+  padding: 10px;
+  margin-left: auto;
+}
+
+.navbar-item {
+  display: inline-block;
+  border-radius: 100px;
+  margin: 0 25px 0 25px;
+  width: 100px;
+  max-width: 100%;
+}
+
+.navbar-item>a {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: center;
+  color: grey;
+}
+
+.navbar-item>a:hover {
+  color:lightblue;
+}
+
+#logo {
+  margin-top: 50%;
+  margin-left:50%;
+  margin-right: auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 200px;
+}
+
+.navbar-gap {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Screens larger do this*/
+@media only screen and (min-width:768px) {
+  .navbar-item>a {
+    display: flex;
+    text-decoration: none;
+    padding: 10px 10px;
+    justify-content: center;
+  }
+}
