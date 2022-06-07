@@ -75,14 +75,20 @@ transition: 0.2s;
     display: flex;
     justify-content: center;
     }
-  /*
-  ul#navbar-list{
+
+  div.navbar-container{
     display:none;
     right: 0;
     left: 0;
-    text-align: center;
+    text-align: right;
     padding: 16px 0;
   }
+
+  .navbar-item {
+    display: block;
+    justify-content: space-between;
+    width: 120px;
+    }
 
   li.navbar-item:hover {
     display: inline-block;
@@ -91,8 +97,9 @@ transition: 0.2s;
     transition: 0.2s;
   }
 
-  #side-menu-toggle:checked ~ ul#navbar-list{
+  #side-menu-toggle:checked ~ div.navbar-container{
     display: block;
+
   }   
 
   .side-menu {
@@ -101,5 +108,5 @@ transition: 0.2s;
     font-size: 60px;
     user-select: none;
   }
-  */
+  
 }
