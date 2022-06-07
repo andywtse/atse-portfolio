@@ -30,12 +30,6 @@ section {
   width: 100%;
 }
 
-.first-name {
-  font-size: 60px;
-  margin-left: 15px;
-  color: orange;
-}
-
 button#button-scroll-top {
   display: none;
   position: fixed;
@@ -50,26 +44,23 @@ button#button-scroll-top {
   border-radius: 50px;
 }
 
+.first-name {
+  font-size: 60px;
+  margin-left: 15px;
+  color: orange;
+}
+
 section#about {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
+
 #image-self {
-  float:left;
+  flex-grow: 0;
+  flex-shrink: 0;
   border-radius: 20px;
-  height: 300px;
+  height: 400px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-right: 50px;
-}
-
-.bio>li span{
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.bio>li:before{
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;       
 }
