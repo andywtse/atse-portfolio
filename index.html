@@ -8,9 +8,11 @@
 
   <link rel="stylesheet" href="./css/globalstyle.css">
   <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/aboutMe.css">
 
   <script defer src="./js/navbar.js"></script>
   <script defer src="./js/scrollToTop.js"></script>
+  <script defer type="module" src="./js/sectionWork.js"></script>
 
   <title>Andy Tse - Portfolio</title>
 </head>
@@ -61,6 +63,8 @@
     <div class="navbar-gap">
       <br>
       <h2>Work</h2>
+      <div id="work-group-container">
+      </div>
       <br>
     </div>
   </section>
@@ -83,5 +87,21 @@
   </footer>
   <button id="button-scroll-top"></button>
 </body>
-
 </html>
+
+<!--
+<div class="work-item-container"> 
+  <img src="${project.image}" class="image-left-data" alt="...">
+  <div class="work-content">;
+    <h5 class="work-title">${project.title}</h5>
+    <p class="work-text">${project.description}</p>
+    <ul class="work-tech-list">
+      //DO WORK HERE
+    </ul>
+    <div>
+      <a href="${project.github"><img src="./img/GitHub-Mark-Light-64px.png"></a>
+      //DO WORK HERE
+    </div>
+  </div>
+</div>
+-->
