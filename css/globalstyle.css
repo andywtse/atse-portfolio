@@ -24,7 +24,9 @@ body {
 }
 
 section {
-  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 
@@ -46,4 +48,28 @@ button#button-scroll-top {
   height: 2rem;
   width: 2rem;
   border-radius: 50px;
+}
+
+section#about {
+  display: flex;
+  flex-direction: row;
+}
+#image-self {
+  float:left;
+  border-radius: 20px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 50px;
+}
+
+.bio>li span{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bio>li:before{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;       
 }
