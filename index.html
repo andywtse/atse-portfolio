@@ -16,29 +16,26 @@
 </head>
 
 <body>
-  <nav>
+  <nav class="header">
+    <!--Logo-->
+    <div class="logo">
+      <a href="./">
+        <img id="logo" src="img/GalaxyTriangle.png">
+      </a>
+    </div>
+
+    <!--Navigation Menu-->
+    <input type="checkbox" id="side-menu-toggle">
+    <label for="side-menu-toggle" class="side-menu">&#9776</label>
+
+      <!--Navbar Menu-->
     <div class="navbar-container">
-      <div class="logo">
-        <a href="./">
-          <img id="logo" src="img/GalaxyTriangle.png">
-        </a>
-      </div>
-      <div class="navbar-list-container">
-        <ul id="navbar-list">
-          <li class="navbar-item">
-            <div>About</div>
-          </li>
-          <li class="navbar-item">
-            <div>Work</div>
-          </li>
-          <li class="navbar-item">
-            <div>Resume</div>
-          </li>
-          <li class="navbar-item">
-            <div>Contact</div>
-          </li>
-        </ul>
-      </div>
+      <ul id="navbar-list">
+        <li class="navbar-item"><div>About</div></li>
+        <li class="navbar-item"><div>Work</div></li>
+        <li class="navbar-item"><div>Resume</div></li>
+        <li class="navbar-item"><div>Contact<div><li>
+      </ul>
     </div>
   </nav>
 
@@ -46,10 +43,7 @@
     <div class="navbar-gap">
       <br>
       <div>
-        <div>
-          <h2>Hello there, my name is </h2>
-          <h2 class="text-my-name">Andy Tse</h2>
-        </div>
+        <h2>Hello there, my name is <span class="first-name">Andy Tse</span></h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque quam eos soluta inventore ex eaque, officia molestiae ad aspernatur commodi. Consectetur omnis libero at magni mollitia non molestiae rem nesciunt?</p>
       </div>
     </div>

@@ -28,6 +28,12 @@ section {
   width: 100%;
 }
 
+.first-name {
+  font-size: 60px;
+  margin-left: 15px;
+  color: orange;
+}
+
 button#button-scroll-top {
   display: none;
   position: fixed;
