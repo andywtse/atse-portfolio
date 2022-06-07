@@ -1,0 +1,38 @@
+.work-item-container {
+  padding: 3rem 3rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.work-tech-list {
+  display: inline-flex;
+  padding: 0;
+}
+
+.work-tech-list>li {
+  margin: 0 2rem;
+}
+
+.work-logo {
+  margin: 0rem 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.title-container {
+  display:inline-flex;
+  align-items: center;
+  margin: -4rem 0px;
+  padding: 0px;
+  font-size: 50px;
+}
+
+.image-data {
+  height: 100%;
+  width: 45rem;
+  margin-bottom: 4rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
