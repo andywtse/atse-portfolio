@@ -19,6 +19,7 @@ let dataMarkup = experienceData.map( project => {
         `</ul>
       </div>
     </div>
+    <hr noshade>
     `
 
     return markup;
