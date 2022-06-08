@@ -15,7 +15,7 @@ let experienceData = [
     demo: "Path Location",
     github: "https://github.com/andywtse/COMP5501",
     description: "SuperMAM is a super computing environment built from a cluster of Raspberry Pis. This repository contains code and setup scripts for the cluster.",
-    technology: ["C", "Fortran"]
+    technology: ["C", "Fortran", "OpenMPI"]
   },
   {
     title: "Person Portfolio",
