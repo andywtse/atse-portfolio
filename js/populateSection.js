@@ -12,7 +12,7 @@ let workData = experienceData.map( project => {
       <div class="work-content">
         <div class="title-container">
         <p class="work-title">${project.title}</p>
-        <a href="${project.github}"><img class="work-logo" src="./img/github.svg" alt="${project.title}"></a>` +
+        <a href="${project.github}" target="_blank"><img class="work-logo" src="./img/github.svg" alt="${project.title}"></a>` +
         parseDeploy(project.deployment) +
         `
         </div>
@@ -53,7 +53,7 @@ function parseTechList(arrayStrings) {
 
 function parseDeploy(string){
   if(string!==`none`){
-    return `<a href="${string}"><img class="work-logo" src="./img/window.svg"></a>`;
+    return `<a href="${string}" target="_blank"><img class="work-logo" src="./img/window.svg"></a>`;
   }
   return ``;
 };
