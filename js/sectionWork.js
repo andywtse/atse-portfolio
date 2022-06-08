@@ -9,7 +9,7 @@ let dataMarkup = experienceData.map( project => {
       <div class="work-content">
         <div class="title-container">
         <h5 class="work-title">${project.title}</h5>
-        <a href="${project.github}"><img class="work-logo" src="./img/GitHub-Mark-64px.png"></a>` +
+        <a href="${project.github}"><img class="work-logo" src="./img/github.svg"></a>` +
         parseDeploy(project.deployment) +
         `
         </div>
@@ -36,7 +36,7 @@ function parseTechList(arrayStrings) {
 
 function parseDeploy(string){
   if(string!==`none`){
-    return `<a href="${string}"><img class="work-logo" src="./img/redirect-icon.jpg"></a>`;
+    return `<a href="${string}"><img class="work-logo" src="./img/window.svg"></a>`;
   }
   return ``;
 };

@@ -2,7 +2,7 @@
 nav {
 position: sticky;
 display: flex;
-background-color: white;
+background-color: #3d5a80;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 top: 0;
 width: 100%;
@@ -27,7 +27,7 @@ width: 120px;
 .navbar-item>div {
 display: flex;
 justify-content: center;
-color: grey;
+color: white;
 overflow: hidden;
 }
 
@@ -48,10 +48,9 @@ justify-content: center;
 margin-top: 30%;
 margin-left:50%;
 margin-right: auto;
-width: 60px;
-height: 60px;
-border-radius: 200px;
-
+width: 2.5rem;
+height: 2.5rem;
+border-radius: 50px;
 }
 
 #logo:hover {

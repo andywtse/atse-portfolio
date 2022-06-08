@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #98c1d9;
 }
 
 section {
@@ -35,10 +36,14 @@ button#button-scroll-top {
   bottom: 2rem;
   right: 2rem;
   cursor: pointer;
-  background: url("../img/uparrow.png");
+  background: url("../img/uparrow.svg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 2rem;
   width: 2rem;
   border-radius: 50px;
+}
+
+section#about, .work-item-container {
+  background-color: #e0fbfc;
 }
