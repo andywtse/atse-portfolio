@@ -37,6 +37,56 @@ let experienceData = [
   }
 ];
 
+let pageDescription = [
+  {
+    //About
+    location: ".bio-info",
+    description: `
+    <h3>Hello there, my name is <span class="first-name">Andy Tse</span></h3>
+    <p>I am currently a student taking Software Engineering Immersive at Genaral Assembly. I graduated from Wentworth Institute of Technology with a background in Computer Science.
+    </p>
+    <p>Below are a few technologyies I've worked with recently:</p>
+    <ul>
+      <li>Java</li>
+      <li>C++</li>
+      <li>Javascript</li>
+      <li>HTML & CSS</li>
+    </ul>`
+  },
+  {
+    //Contact
+    location: ".contact-info",
+    description: `
+      <p class="contact-desc">
+      Need to get in touch? <br> Here are multiple methods to contact me!</p>
+      <div class="contact-links">
+      </div>
+    `
+  }
+];
+
+let linkInfo = [
+  {
+    name: "linkedin",
+    url: "https://www.linkedin.com/in/andywtse/",
+    image: "./img/linkedin.svg",
+    target: "_blank"
+  },
+  {
+    name: "github",
+    url: "https://github.com/andywtse",
+    image: "./img/github.svg",
+    target: "_blank"
+  },
+  {
+    name: "email",
+    url: "mailto:atse4995@gmail.com",
+    image: "./img/email.svg",
+    target: "_blank"
+  }
+
+]
+
 export {
-  experienceData
+  experienceData, pageDescription, linkInfo
 }
