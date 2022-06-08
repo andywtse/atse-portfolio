@@ -1,9 +1,6 @@
-#resume>div{
-  height: 70rem;
-}
 
 #resumePDF {
-  height: auto;
-  width: 100%;
+  height: 70rem;
+  width: 55rem;
   border-radius: 8px;
 }

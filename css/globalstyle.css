@@ -27,7 +27,7 @@ body {
 section {
   width: 65%;
   margin-top:100px;
-  scroll-margin-top: 10rem;
+  scroll-margin-top: 5rem;
 }
 
 button#button-scroll-top {
@@ -41,9 +41,23 @@ button#button-scroll-top {
   background-repeat: no-repeat;
   height: 2rem;
   width: 2rem;
-  border-radius: 50px;
+  border:0px;
 }
 
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+/*
 section#about, .work-item-container {
   background-color: #e0fbfc;
 }
+*/

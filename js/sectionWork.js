@@ -8,7 +8,7 @@ let dataMarkup = experienceData.map( project => {
       <img src="${project.image}" class="image-data" alt="...">
       <div class="work-content">
         <div class="title-container">
-        <h5 class="work-title">${project.title}</h5>
+        <p class="work-title">${project.title}</p>
         <a href="${project.github}"><img class="work-logo" src="./img/github.svg"></a>` +
         parseDeploy(project.deployment) +
         `
