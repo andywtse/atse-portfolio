@@ -4,6 +4,10 @@ const workContainer = document.getElementById('work-group-container');
 const bioContainer = document.querySelector('.bio-info');
 const contactContainer = document.querySelector('.contact-info')
 
+const btnDownload = document.getElementById('download-resume');
+
+btnDownload.addEventListener('click', downloadResume);
+
 
 let workData = experienceData.map( project => {
   let markup = `
@@ -57,3 +61,7 @@ function parseDeploy(string){
   }
   return ``;
 };
+
+function downloadResume(){
+  window.open('https://drive.google.com/file/d/1cuY4aDGW8gjmPpUGLcATzf0m3i_-Hz_N/view?usp=sharing');
+}

@@ -1,3 +1,13 @@
+:root {
+  --bg-body-color: linear-gradient(to right,#007FA4,#005670);
+  --bg-nav-color: linear-gradient(to right,#3E4756,#A2ACBD);
+  --bg-button-color: lightslategray;
+  --hover-nav-color:lightblue;
+  --font-nav-color: white;
+  --font-color: white;
+  --first-name-color: #F2F2F2;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -21,7 +31,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #98c1d9;
+  background-image: var(--bg-body-color);
+  color: var(--font-color);
 }
 
 section {
@@ -59,6 +70,29 @@ hr {
   width: 75%;
   height: 1px;
   color: black;
+}
+
+/*Resume*/
+
+#image-resume {
+  height: 100%;
+  width: 100%;
+  max-height: 40rem;
+  max-width: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#download-resume {
+  cursor: pointer;
+  font-size: 34px;
+  margin: 3rem 0rem;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+#download-resume:hover {
+  cursor: pointer;
+  background: var(--bg-button-color);
 }
 
 /*

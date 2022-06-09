@@ -8,7 +8,7 @@
   display: inline-block;
   font-size: 60px;
   margin-left: 15px;
-  color: #ee6c4d;
+  color: var(--first-name-color);
 }
 
 section#about {
