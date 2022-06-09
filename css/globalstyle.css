@@ -6,6 +6,7 @@
   --font-nav-color: white;
   --font-color: white;
   --first-name-color: #F2F2F2;
+  --border-button-color: black;
 }
 
 html {
@@ -84,15 +85,14 @@ hr {
 
 #download-resume {
   cursor: pointer;
-  font-size: 34px;
   margin: 3rem 0rem;
-  border: 2px solid black;
-  border-radius: 8px;
+  height: 4rem;
+  padding: 0.5rem;
 }
 
 #download-resume:hover {
-  cursor: pointer;
-  background: var(--bg-button-color);
+  border: 2px solid var(--border-button-color);
+  border-radius: 7px;
 }
 
 /*
