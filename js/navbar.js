@@ -2,8 +2,6 @@ const navbarItems = document.querySelectorAll('.navbar-item>div');
 const navbar = document.querySelector('nav');
 let prevScrollPos = window.pageYOffset;
 
-console.log(navbar);
-
 navbarItems.forEach( item => {
   item.addEventListener('click', scrollToContent);
 });
@@ -24,3 +22,4 @@ window.onscroll = function() {
   }
   prevScrollPos = currentScrollPos;
 }
+
