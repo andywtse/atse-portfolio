@@ -32,9 +32,9 @@
 }
 
 .title-container {
-  display:inline-flex;
+  display: inline-flex;
   box-sizing: content-box;
-  align-items:baseline;
+  align-items: baseline;
   justify-content: center;
   margin: 0;
   padding: 0;

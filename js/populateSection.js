@@ -4,7 +4,7 @@ const workContainer = document.getElementById('work-group-container');
 const bioContainer = document.querySelector('.bio-info');
 const contactContainer = document.querySelector('.contact-info')
 
-let workData = experienceData.map( project => {
+let workData = experienceData.map(project => {
   let markup = `
     <div class="work-item-container"> 
       <img src="${project.image}" class="image-data" alt="...">
@@ -12,22 +12,22 @@ let workData = experienceData.map( project => {
         <div class="title-container">
         <p class="work-title">${project.title}</p>
         <a href="${project.github}" target="_blank"><img class="work-logo" src="./img/github.svg" alt="${project.title}"></a>` +
-        parseDeploy(project.deployment) +
-        `
+    parseDeploy(project.deployment) +
+    `
         </div>
         <p class="work-text">${project.description}</p>
         <ul class="work-tech-list">` +
-          parseTechList(project.technology) +
-        `</ul>
+    parseTechList(project.technology) +
+    `</ul>
       </div>
     </div>
     <hr noshade>
     `
 
-    return markup;
+  return markup;
 }).join('');
 
-let linkData = linkInfo.map( link => {
+let linkData = linkInfo.map(link => {
   let markup = `
     <a href="${link.url}" target="${link.target}"><img class="contact-logo" src="${link.image}" alt="${link.name}"></a>
   `
@@ -50,8 +50,8 @@ function parseTechList(arrayStrings) {
   return markup;
 }
 
-function parseDeploy(string){
-  if(string!==`none`){
+function parseDeploy(string) {
+  if (string !== `none`) {
     return `<a href="${string}" target="_blank"><img class="work-logo" src="./img/window.svg"></a>`;
   }
   return ``;

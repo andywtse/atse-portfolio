@@ -1,67 +1,67 @@
 /*Navigation Bar*/
 nav {
-position: sticky;
-display: flex;
-background-image: var(--bg-nav-color);
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-top: 0;
-width: 100%;
-transition: top 0.3s;
+  position: sticky;
+  display: flex;
+  background-image: var(--bg-nav-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
 }
 
 div.navbar-container {
-display: flex;
-margin-left: auto;
-cursor:default;
+  display: flex;
+  margin-left: auto;
+  cursor: default;
 }
 
 ul#navbar-list {
-list-style-type: none;
+  list-style-type: none;
 }
 
 .navbar-item {
-display: inline-block;
-justify-content: space-between;
-width: 120px;
+  display: inline-block;
+  justify-content: space-between;
+  width: 120px;
 }
 
 .navbar-item>div {
-display: flex;
-justify-content: center;
-color: var(--font-color);
-overflow: hidden;
+  display: flex;
+  justify-content: center;
+  color: var(--font-color);
+  overflow: hidden;
 }
 
 .navbar-item>div:hover {
-color:var(--hover-nav-color);
-cursor: pointer;
-text-shadow: 2px 2px 2px blue;
-transition: 0.2s;
+  color: var(--hover-nav-color);
+  cursor: pointer;
+  text-shadow: 2px 2px 2px blue;
+  transition: 0.2s;
 }
 
 .navbar-gap {
-margin: 50px 100px;
-display: flex;
-justify-content: center;
+  margin: 50px 100px;
+  display: flex;
+  justify-content: center;
 }
 
 #logo {
-margin-top: 30%;
-margin-left:50%;
-margin-right: auto;
-width: 2.5rem;
-height: 2.5rem;
-border-radius: 50px;
+  margin-top: 30%;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50px;
 }
 
 #logo:hover {
-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-transition: 0.2s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.2s;
 }
 
-#side-menu-toggle{
+#side-menu-toggle {
   display: none;
-} 
+}
 
 .side-menu {
   display: none;
@@ -74,10 +74,10 @@ transition: 0.2s;
     margin: 100px 50px;
     display: flex;
     justify-content: center;
-    }
-  
-  ul#navbar-list{
-    display:none;
+  }
+
+  ul#navbar-list {
+    display: none;
     right: 0;
     left: 0;
     text-align: center;
@@ -91,9 +91,9 @@ transition: 0.2s;
     transition: 0.2s;
   }
 
-  #side-menu-toggle:checked ~ ul#navbar-list{
+  #side-menu-toggle:checked~ul#navbar-list {
     display: block;
-  }   
+  }
 
   .side-menu {
     display: flex;

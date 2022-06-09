@@ -1,8 +1,8 @@
 :root {
-  --bg-body-color: linear-gradient(to right,#007FA4,#005670);
-  --bg-nav-color: linear-gradient(to right,#3E4756,#A2ACBD);
+  --bg-body-color: linear-gradient(to right, #007FA4, #005670);
+  --bg-nav-color: linear-gradient(to right, #3E4756, #A2ACBD);
   --bg-button-color: lightslategray;
-  --hover-nav-color:lightblue;
+  --hover-nav-color: lightblue;
   --font-nav-color: white;
   --font-color: white;
   --first-name-color: #F2F2F2;
@@ -15,9 +15,12 @@ html {
 }
 
 /* The Universal Selector */
-*, /* All elements*/
-*::before, /* All ::before pseudo-elements */
-*::after { /* All ::after pseudo-elements */
+*,
+/* All elements*/
+*::before,
+/* All ::before pseudo-elements */
+*::after {
+  /* All ::after pseudo-elements */
   /* height & width will now include border & padding by default
      but can be over-ridden as needed */
   box-sizing: inherit;
@@ -38,7 +41,7 @@ body {
 
 section {
   width: 65%;
-  margin-top:100px;
+  margin-top: 100px;
   scroll-margin-top: 5rem;
 }
 
@@ -53,7 +56,7 @@ button#button-scroll-top {
   background-repeat: no-repeat;
   height: 2rem;
   width: 2rem;
-  border:0px;
+  border: 0px;
 }
 
 .section-container {

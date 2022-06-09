@@ -6,7 +6,7 @@ let experienceData = [
     demo: "Path Location",
     github: "https://github.com/andywtse/COMP4970",
     description: "DataMETL is a Data Management ETL System intended to perform ETL operations on structured data sets like XML, CSV, and JSON. It loads these structured data sets into various data storage systems such as MySQL, PostgreSQL, solr, Elastic Search, etc.",
-    technology: ["Java","MySQL"]
+    technology: ["Java", "MySQL"]
   },
   {
     title: "SuperMAM",
@@ -24,7 +24,7 @@ let experienceData = [
     demo: "Path Location",
     github: "https://github.com/andywtse/atse-portfolio",
     description: "My personal portfolio website deployed and hosted using Netlify. Developed with Javascript, HTML & CSS.",
-    technology: ["Javascript","HTML & CSS"]
+    technology: ["Javascript", "HTML & CSS"]
   },
   {
     title: "Tic-Tac-Toe",
@@ -33,7 +33,7 @@ let experienceData = [
     demo: "Path Location",
     github: "https://github.com/andywtse/ttt-weekend",
     description: "A recreation of Tic-Tac-Toe with a bit of flair.",
-    technology: ["Javascript","HTML & CSS"]
+    technology: ["Javascript", "HTML & CSS"]
   }
 ];
 

@@ -7,8 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
   <link rel="shortcut icon" href="./img/letterA.svg" type="image/x-icon">
   <link rel="stylesheet" href="./css/globalstyle.css">
   <link rel="stylesheet" href="./css/navbar.css">
@@ -25,6 +26,7 @@
 </head>
 
 <body>
+  <!-- Navbar -->
   <nav class="header">
     <!--Logo-->
     <div class="logo">
@@ -37,59 +39,72 @@
     <input type="checkbox" id="side-menu-toggle">
     <label for="side-menu-toggle" class="side-menu">&#9776</label>
 
-      <!--Navbar Menu-->
+    <!--Navbar Menu-->
     <div class="navbar-container">
       <ul id="navbar-list">
-        <li class="navbar-item"><div>About</div></li>
-        <li class="navbar-item"><div>Work</div></li>
-        <li class="navbar-item"><div>Resume</div></li>
-        <li class="navbar-item"><div>Contact<div><li>
+        <li class="navbar-item">
+          <div>About</div>
+        </li>
+        <li class="navbar-item">
+          <div>Work</div>
+        </li>
+        <li class="navbar-item">
+          <div>Resume</div>
+        </li>
+        <li class="navbar-item">
+          <div>Contact<div>
+        <li>
       </ul>
     </div>
   </nav>
 
+  <!-- About Section -->
   <section id="about">
     <div class="navbar-gap">
       <div class="about-container">
         <img id="image-self" src="./img/photo-self.jpg" alt="Picture of Andy">
         <div class="bio-info">
-          
         </div>
       </div>
     </div>
   </section>
   <hr noshade>
+
+  <!-- Work Section -->
   <section id="work">
     <div class="navbar-gap">
       <div class="section-container">
         <h2>Work</h2>
         <div id="work-group-container">
         </div>
-    </div>
+      </div>
     </div>
   </section>
+
+  <!-- Resume Section -->
   <section id="resume">
     <div class="navbar-gap">
       <div class="section-container">
         <h2>Resume</h2>
         <a href="https://drive.google.com/file/d/1cuY4aDGW8gjmPpUGLcATzf0m3i_-Hz_N/view?usp=sharing" target="_blank">
-        <img id="image-resume" src="img/resume.png" alt="Resume"></a>
-
+          <img id="image-resume" src="img/resume.png" alt="Resume"></a>
         <a href="https://drive.google.com/file/d/1cuY4aDGW8gjmPpUGLcATzf0m3i_-Hz_N/view?usp=sharing" target="_blank">
           <img id="download-resume" src="./img/download.svg" alt="Download"></a>
       </div>
     </div>
   </section>
   <hr noshade>
+
+  <!-- Contact Section -->
   <section id="contact">
     <div class="navbar-gap">
-        <div class="contact-info">
-
-        </div>
+      <div class="contact-info">
+      </div>
     </div>
   </section>
-  <footer>
-  </footer>
+
+  <!-- Scroll Up Buttom -->
   <button id="button-scroll-top" type="button"></button>
 </body>
+
 </html>
