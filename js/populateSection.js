@@ -29,7 +29,7 @@ let workData = experienceData.map(project => {
 
 let linkData = linkInfo.map(link => {
   let markup = `
-    <a href="${link.url}" target="${link.target}"><img class="contact-logo" src="${link.image}" alt="${link.name}"></a>
+    <a class="contact-anchor" href="${link.url}" target="${link.target}"><img class="contact-logo" src="${link.image}" alt="${link.name}"></a>
   `
   return markup;
 }).join('');

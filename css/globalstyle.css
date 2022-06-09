@@ -5,8 +5,9 @@
   --hover-nav-color: lightblue;
   --font-nav-color: white;
   --font-color: white;
-  --first-name-color: #F2F2F2;
+  --first-name-color: orange;
   --border-button-color: black;
+  --text-border: white;
 }
 
 html {
@@ -81,8 +82,7 @@ hr {
 #image-resume {
   height: 100%;
   width: 100%;
-  max-height: 40rem;
-  max-width: 30rem;
+  max-width: 50rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -97,9 +97,10 @@ hr {
   border: 2px solid var(--border-button-color);
   border-radius: 7px;
 }
-
-/*
-section#about, .work-item-container {
-  background-color: #e0fbfc;
+@media only screen and (max-width:1200px) {
+  section {
+    width: 65%;
+    margin-top: -100px;
+    scroll-margin-top: 5rem;
+  }
 }
-*/
