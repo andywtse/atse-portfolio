@@ -6,6 +6,7 @@
   --font-nav-color: white;
   --font-color: white;
   --first-name-color: orange;
+  --title-section-color: lightblue;
   --border-button-color: black;
   --text-border: white;
 }
@@ -91,6 +92,14 @@ hr {
   margin: 3rem 0rem;
   height: 4rem;
   padding: 0.5rem;
+}
+
+.title-section {
+  display: inline-block;
+  font-size: 60px;
+  margin-left: 15px;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  color: var(--title-section-color);
 }
 
 #download-resume:hover {
