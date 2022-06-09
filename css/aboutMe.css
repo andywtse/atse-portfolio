@@ -37,10 +37,10 @@ section#about {
     width: 100%;
   }
 
-  .bio {
+  .bio-info{
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 0 -50px;
   }
 
   #image-self {
