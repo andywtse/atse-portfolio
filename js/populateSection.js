@@ -21,7 +21,7 @@ let workData = experienceData.map(project => {
     `</ul>
       </div>
     </div>
-    <hr noshade>
+    <hr class="hr-work" noshade>
     `
 
   return markup;
