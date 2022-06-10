@@ -5,7 +5,7 @@ let experienceData = [
     image: "../img/DataMETL.png",
     demo: "Path Location",
     github: "https://github.com/andywtse/COMP4970",
-    description: "DataMETL is a Data Management ETL System intended to perform ETL operations on structured data sets like XML, CSV, and JSON. It loads these structured data sets into various data storage systems such as MySQL, PostgreSQL, solr, Elastic Search, etc.",
+    description: "DataMETL is a Data Management ETL System intended to perform ETL operations on structured data sets like XML, CSV, and JSON. It loads these structured data sets into various data storage systems such as MySQL, PostgreSQL, Solr, Elastic Search, etc.",
     technology: ["Java", "MySQL"]
   },
   {
@@ -23,7 +23,7 @@ let experienceData = [
     image: "../img/Portfolio.png",
     demo: "Path Location",
     github: "https://github.com/andywtse/atse-portfolio",
-    description: "My personal portfolio website deployed and hosted using Netlify. Developed with Javascript, HTML & CSS.",
+    description: "My personal portfolio is website deployed and hosted using Netlify. Developed with Javascript, HTML & CSS.",
     technology: ["Javascript", "HTML & CSS"]
   },
   {
@@ -43,9 +43,9 @@ let pageDescription = [
     location: ".bio-info",
     description: `
     <h3>Hello there, my name is <span class="first-name">Andy Tse</span></h3>
-    <p>I am currently a student taking Software Engineering Immersive at Genaral Assembly. I graduated from Wentworth Institute of Technology with a background in Computer Science.
+    <p>I am currently a student taking Software Engineering Immersive at General Assembly.
     </p>
-    <p>Below are a few technologyies I've worked with recently:</p>
+    <p>Below are a few technologies I've worked with recently:</p>
     <ul>
       <li>Java</li>
       <li>C++</li>
