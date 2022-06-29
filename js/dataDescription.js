@@ -34,6 +34,15 @@ let experienceData = [
     github: "https://github.com/andywtse/ttt-weekend",
     description: "A recreation of Tic-Tac-Toe with a bit of flair.",
     technology: ["Javascript", "HTML & CSS"]
+  },
+  {
+    title: "PokeGoose",
+    deployment: "https://pokegoose.herokuapp.com/",
+    image: "../img/TicTacToe.png",
+    demo: "Path Location",
+    github: "https://github.com/andywtse/PokeGoose",
+    description: "PokeGoose is a web application for users to build their best and favorite Pokemon team composition.",
+    technology: ["Javascript", "Mongoose", "MongoDB", "Express", 'NodeJS']
   }
 ];
 
