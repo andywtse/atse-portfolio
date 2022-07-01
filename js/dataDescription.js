@@ -38,7 +38,7 @@ let experienceData = [
   {
     title: "PokeGoose",
     deployment: "https://pokegoose.herokuapp.com/",
-    image: "../img/pokegoose.png",
+    image: "../img/PokeGoose.png",
     demo: "Path Location",
     github: "https://github.com/andywtse/PokeGoose",
     description: "PokeGoose is a web application for users to build their best and favorite Pokemon team composition.",
