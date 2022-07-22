@@ -18,6 +18,15 @@ let experienceData = [
     technology: ["C", "Fortran", "OpenMPI"]
   },
   {
+    title: "SuiteSpace",
+    deployment: "https://suitespace.netlify.app/",
+    image: "../img/SuiteSpace.png",
+    demo: "Path Location",
+    github: "https://github.com/andywtse/suitespace-front-end",
+    description: "Suitespace is a website that serves as a hub for important widgets such as: weather, news, to-do's, calendar, etc.",
+    technology: ["Javascript", "HTML & CSS", "React","MongoDB","Express", "NodeJS", "Material-UI", "ChartJS"]
+  },
+  {
     title: "Person Portfolio",
     deployment: "https://andywtse.netlify.app/",
     image: "../img/Portfolio.png",
